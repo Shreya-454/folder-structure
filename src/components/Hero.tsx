@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { AccordionArrow } from "./common/Icon";
 
 export default function Hero() {
     return(
