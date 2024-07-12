@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Hero() {
     return(
         <>
-      <div className="flex justify-center items-center min-h-screen">
-        <Link href='./about'><button className="text-3xl border-2 border-black py-3 px-5 bg-blue-700 text-white">About</button></Link>
-      </div>
+          <div className="flex justify-center items-center container max-w-[1140px] min-h-screen mx-auto px-3 ">
+<h1 className=" text-black font-bold text-4xl text-center">Welcome to Home Page</h1>
+          </div>
         </>
     )
 }

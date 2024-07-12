@@ -2,9 +2,7 @@ import Link from "next/link";
 
 export default function About() {
     return(
-<>
-<div className="flex justify-center items-center  min-h-screen">
-    <Link href="./"><button className="text-3xl border-2 border-black py-3 px-5 bg-red-800 text-white">Home</button></Link>
+<div className="flex justify-center items-center container max-w-[1140px] mx-auto min-h-screen px-3 ">
+<h1 className=" text-black font-bold text-4xl text-center">This is About Page</h1>
 </div>
-</>
 )}
